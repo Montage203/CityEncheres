@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <img src="images/badge_image_${badge.id}.gif" alt="${badge.name}">
             <div class="detail">
                 <h2>${badge.name}</h2>
-                <p>ID : ${badge.id}</p><p>${bidInfo}</p>
+                <p>ID : ${badge.id}</p>
                 <p>Prix actuel: ${getHighestBid(badge.id) || badge.price} diamants par ${getHighestBidder(badge.id) || badge.lastBid}</p>
                 <button class="toggleBidsButton" data-badge-id="${badge.id}">Voir les enchères</button>
                 <div class="bidsList" style="display: none;"></div>
