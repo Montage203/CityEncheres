@@ -59,11 +59,19 @@ body {
 }
 
 .badge-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Style de la grille */
-    gap: 20px; /* Espacement entre les badges */
-    padding: 20px 0;
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, 85px);*/ /* Largeur fixe de 280px par élément */
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+  justify-items: center;
 }
+
+.badge {
+    /* ... autres styles ... */
+    width: fit-content; /* Ajustez la largeur au contenu du badge */
+}
+
 
 /* Styles pour le badge agrandi */
 .enlarged-badge {
@@ -174,3 +182,18 @@ body {
     max-height: 80%; /* Hauteur maximale du contenu du popup */
     overflow: auto; /* Permet le défilement si le contenu est trop grand */
   }
+
+/* Lorsque .badge est survolé, .detail sera affiché */
+.badge:hover .detail {
+  display: block;
+}
+.detail {display: none;}
+
+.badge:hover {
+  width: fit-content; /* La largeur devient auto pour s'adapter au contenu */
+}
+
+
+.badge:hover ~ .badge-grid {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))!important; /* Ajustement au survol */
+}

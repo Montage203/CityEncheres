@@ -22,7 +22,127 @@ document.addEventListener('DOMContentLoaded', function() {
             price: 10,
             lastBid: 'personne',
             bids: [
-                /*{ bidAmount: 10, bidderName: 'Kevin' }*/
+                { bidAmount: 10, bidderName: 'Kevin' }
+            ]
+        },
+        {
+            id: 2,
+            name: 'Pique',
+            theme: 'Lance bouclier combat',
+            colors: 'rouge, jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                /*{ bidAmount: 50, bidderName: 'Martin' },
+                { bidAmount: 10, bidderName: 'Julien' },
+                { bidAmount: 1000, bidderName: 'Marie' }*/
+            ]
+        },
+        {
+            id: 1,
+            name: 'Bulldog Hippie',
+            theme: 'animaux animal chien',
+            colors: 'beige, coloré',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                { bidAmount: 10, bidderName: 'Kevin' }
+            ]
+        },
+        {
+            id: 2,
+            name: 'Pique',
+            theme: 'Lance bouclier combat',
+            colors: 'rouge, jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                /*{ bidAmount: 50, bidderName: 'Martin' },
+                { bidAmount: 10, bidderName: 'Julien' },
+                { bidAmount: 1000, bidderName: 'Marie' }*/
+            ]
+        },
+        {
+            id: 1,
+            name: 'Bulldog Hippie',
+            theme: 'animaux animal chien',
+            colors: 'beige, coloré',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                { bidAmount: 10, bidderName: 'Kevin' }
+            ]
+        },
+        {
+            id: 2,
+            name: 'Pique',
+            theme: 'Lance bouclier combat',
+            colors: 'rouge, jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                /*{ bidAmount: 50, bidderName: 'Martin' },
+                { bidAmount: 10, bidderName: 'Julien' },
+                { bidAmount: 1000, bidderName: 'Marie' }*/
+            ]
+        },
+        {
+            id: 1,
+            name: 'Bulldog Hippie',
+            theme: 'animaux animal chien',
+            colors: 'beige, coloré',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                { bidAmount: 10, bidderName: 'Kevin' }
+            ]
+        },
+        {
+            id: 2,
+            name: 'Pique',
+            theme: 'Lance bouclier combat',
+            colors: 'rouge, jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                /*{ bidAmount: 50, bidderName: 'Martin' },
+                { bidAmount: 10, bidderName: 'Julien' },
+                { bidAmount: 1000, bidderName: 'Marie' }*/
+            ]
+        },
+        {
+            id: 1,
+            name: 'Bulldog Hippie',
+            theme: 'animaux animal chien',
+            colors: 'beige, coloré',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                { bidAmount: 10, bidderName: 'Kevin' }
+            ]
+        },
+        {
+            id: 2,
+            name: 'Pique',
+            theme: 'Lance bouclier combat',
+            colors: 'rouge, jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                /*{ bidAmount: 50, bidderName: 'Martin' },
+                { bidAmount: 10, bidderName: 'Julien' },
+                { bidAmount: 1000, bidderName: 'Marie' }*/
+            ]
+        },
+        {
+            id: 1,
+            name: 'Bulldog Hippie',
+            theme: 'animaux animal chien',
+            colors: 'beige, coloré',
+            price: 10,
+            lastBid: 'personne',
+            bids: [
+                { bidAmount: 10, bidderName: 'Kevin' }
             ]
         },
         {
@@ -62,16 +182,19 @@ document.addEventListener('DOMContentLoaded', function() {
             if (badge.bids.length > 0) {
                 bidInfo = `${getHighestBid(badge.id) || badge.price} diamants par ${getHighestBidder(badge.id) || badge.lastBid}`;
             } else {
-                bidInfo = 'Pas encore d\'enchères';
+                
+                bidInfo = 'Il n\'y a pas encore d\'enchères';
             }
 
             badgeElement.innerHTML = `
-                <img src="images/badge_image_${badge.id}.gif" alt="${badge.name}">
+            <img src="images/badge_image_${badge.id}.gif" alt="${badge.name}">
+            <div class="detail">
                 <h2>${badge.name}</h2>
-                <p>ID : ${badge.id}</p>
+                <p>ID : ${badge.id}</p><p>${bidInfo}</p>
                 <p>Prix actuel: ${getHighestBid(badge.id) || badge.price} diamants par ${getHighestBidder(badge.id) || badge.lastBid}</p>
                 <button class="toggleBidsButton" data-badge-id="${badge.id}">Voir les enchères</button>
                 <div class="bidsList" style="display: none;"></div>
+                </div>
             `;
             if (badge.bids.length === 0) {
                 const toggleBidsButton = badgeElement.querySelector('.toggleBidsButton');
@@ -215,6 +338,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
+
+    
     updateTimer();
     setInterval(updateTimer, 1000);
     displayBadges();
