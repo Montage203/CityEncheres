@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             price: 10,
             lastBid: 'personne',
             bids: [
-                { bidAmount: 10, bidderName: 'Kevin' }
+                /*{ bidAmount: 10, bidderName: 'Kevin' }*/
             ]
         },
         {
