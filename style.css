@@ -194,9 +194,7 @@ body {
 }
 
 
-.badge:hover ~ .badge-grid {
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))!important; /* Ajustement au survol */
-}
+
 
 
 
@@ -209,7 +207,7 @@ body {
 }
 
 .badge-grid:hover {
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Largeur fixe par défaut */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Largeur fixe par défaut */
 }
 
 .badge {
