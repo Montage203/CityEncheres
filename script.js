@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 9,
             name: '',
-            theme: '',
-            colors: '',
+            theme: 'animaux animal grenouille roi',
+            colors: 'vert',
             price: 10,
             lastBid: 'personne',
             bids: []
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 12,
             name: '',
-            theme: '',
+            theme: 'animaux animal crabe orange perle',
             colors: '',
             price: 10,
             lastBid: 'personne',
