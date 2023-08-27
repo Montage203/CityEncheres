@@ -207,7 +207,7 @@ body {
 }
 
 .badge-grid:hover {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Largeur fixe par défaut */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Largeur fixe par défaut */
 }
 
 .badge {
