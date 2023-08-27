@@ -57,10 +57,280 @@ document.addEventListener('DOMContentLoaded', function() {
             bids: []
         },
         {
-            id: 4,
-            name: 'La poule dorée',
-            theme: 'animaux animal poule',
-            colors: 'jaune',
+            id: 5,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 6,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 7,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 8,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 9,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 10,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 11,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 12,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 13,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 14,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 15,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 16,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 17,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 18,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 19,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 20,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 21,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 22,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 23,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 24,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 25,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 26,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 27,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 28,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 29,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 30,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 31,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 32,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 33,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 34,
+            name: '',
+            theme: '',
+            colors: '',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 35,
+            name: '',
+            theme: '',
+            colors: '',
             price: 10,
             lastBid: 'personne',
             bids: []
