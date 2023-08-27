@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             name: 'Bulldog Hippie',
             theme: 'animaux animal chien',
-            colors: 'beige, coloré',
+            colors: 'beige coloré',
             price: 10,
             lastBid: 'personne',
             bids: [
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2,
             name: 'Pique',
             theme: 'Lance bouclier combat',
-            colors: 'rouge, jaune',
+            colors: 'rouge jaune',
             price: 10,
             lastBid: 'personne',
             bids: [
@@ -38,16 +38,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 { bidAmount: 1000, bidderName: 'Marie' }*/
             ]
         },
-        
         {
             id: 3,
             name: 'Présentoir de badge de Saint-Valentin',
-            theme: 'Saint-Valentin, fête, Couple, Amour',
-            colors: 'Vert',
+            theme: 'Saint-Valentin fête Couple Amour',
+            colors: 'vert',
             price: 10,
             lastBid: 'personne',
             bids: []
-        }
+        },
+        {
+            id: 4,
+            name: 'La poule dorée',
+            theme: 'animaux animal poule',
+            colors: 'jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
+        {
+            id: 4,
+            name: 'La poule dorée',
+            theme: 'animaux animal poule',
+            colors: 'jaune',
+            price: 10,
+            lastBid: 'personne',
+            bids: []
+        },
         // Ajoutez d'autres badges ici
     ];
 
