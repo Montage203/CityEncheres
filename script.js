@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
             price: 10,
             lastBid: 'personne',
             bids: [
-                /*{ bidAmount: 50, bidderName: 'kevin' },
+                { bidAmount: 50, bidderName: 'kevin' },
                 { bidAmount: 10, bidderName: 'Julien' },
-                { bidAmount: 1000, bidderName: 'Marie' }*/
+                { bidAmount: 1000, bidderName: 'Marie' }
             ]
         },
         {
